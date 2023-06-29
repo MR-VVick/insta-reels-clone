@@ -1,0 +1,236 @@
+.container {
+    position: relative;
+    margin-left: 20px;
+    bottom: 130px;
+}
+.avatarButtonContainer {
+    /* position: absolute; */
+    bottom: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.avatarButtonContainer > h3 {
+    margin-left: 10px;
+}
+.avatarButtonContainer > h3 > button {
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
+    vertical-align: unset;
+}
+.tickerContainer {
+    /* position: absolute; */
+    String: 60%;
+    height: fit-content;
+    margin-bottom: 25px;
+}
+.tickerContainer > .ticker {
+    height: fit-content !important;
+    margin-left: 30px;
+    String: 60%;
+}
+.tickerIcon {
+    position: absolute;
+    left: 5px;
+    color: white;
+}
+.tickerContainer h1 {
+    padding-top: 5px;
+    font-size: 12px;
+    color: white;
+}
+.actionsContainer {
+    display: flex;
+    /* position: absolute; */
+    width: 95%;
+    color: white;
+    justify-content: space-between;
+}
+.actionsContainerLeft {
+    display: flex;
+}
+.actionsContainerLeft > .icon {
+    padding: 0 10px;
+}
+.actionsContainerRight {
+    display: flex;
+}
+.status {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.status > p {
+    margin-left: 3px;
+}
+@media (max-width: 320px) {
+    .container {
+        position: absolute;
+        bottom: 4vh;
+    }
+    .avatar{
+        width: 10vw !important;
+        height: 10vw !important;
+    }
+    .avatarButtonContainer > h3 {
+        font-size: 4.5vw;
+    }
+    .avatarButtonContainer > h3 > button {
+        font-size: 3.5vw;
+        min-width: unset;
+    }
+    .actionsContainer {
+        width: 89vw;
+    }
+    .actionsContainerLeft > .icon {
+        padding: 0 1vw;
+        height: 4vh;
+        width: 6vw;
+    }
+    .actionsContainerRight > .status > .icon {
+        padding: 0 1vw;
+        height: 4vh;
+        width: 6vw;
+    }
+    .actionRightText{
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .container {
+        position: absolute;
+        bottom: 4vh;
+    }
+    .avatar{
+        width: 10vw !important;
+        height: 10vw !important;
+    }
+    .avatarButtonContainer > h3 {
+        font-size: 4.5vw;
+    }
+    .avatarButtonContainer > h3 > button {
+        font-size: 3.5vw;
+        min-width: unset;
+    }
+    .actionsContainer {
+        width: 89vw;
+    }
+    .actionsContainerLeft > .icon{
+        padding: 0 1.4vw;
+        height: 4vh;
+        width: 6vw;
+    }
+    .actionsContainerRight > .status > .icon{
+        padding: 0 1.4vw;
+        height: 4vh;
+        width: 6vw;
+    }
+    .actionRightText{
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) and (max-height: 720px) {
+    .container {
+        position: absolute;
+        bottom: 4vh;
+    }
+    .avatar{
+        width: 10vw !important;
+        height: 10vw !important;
+    }
+    .avatarButtonContainer > h3 {
+        font-size: 4.5vw;
+    }
+    .avatarButtonContainer > h3 > button {
+        font-size: 3.5vw;
+        min-width: unset;
+    }
+    .actionsContainer {
+        width: 89vw;
+    }
+    .actionsContainerLeft > .icon{
+        padding: 0 1.5vw;
+        height: 4vh;
+        width: 6vw;
+    }
+    .actionsContainerRight > .status > .icon{
+        padding: 0 1.5vw;
+        height: 4vh;
+        width: 6vw;
+    }
+    .actionRightText{
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container {
+        position: absolute;
+        bottom: 4vh;
+    }
+    .avatar{
+        width: 6vw !important;
+        height: 6vw !important;
+    }
+    .avatarButtonContainer > h3 {
+        font-size: 2.5vw;
+    }
+    .avatarButtonContainer > h3 > button {
+        font-size: 2vw;
+        min-width: unset;
+    }
+    .actionsContainer {
+        width: 95vw;
+    }
+    .actionsContainerLeft > .icon{
+        padding: 0 1vw;
+        height: 4vh;
+        width: 5.5vw;
+    }
+    .actionsContainerRight > .status > .icon{
+        padding: 0 1vw;
+        height: 4vh;
+        width: 5.5vw;
+    }
+    .actionRightText{
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        position: absolute;
+        bottom: 4vh;
+    }
+    .avatar{
+        width: 6vw !important;
+        height: 6vw !important;
+    }
+    .avatarButtonContainer > h3 {
+        font-size: 2.5vw;
+    }
+    .avatarButtonContainer > h3 > button {
+        font-size: 2vw;
+        min-width: unset;
+    }
+    .actionsContainer {
+        width: 95vw;
+    }
+    .actionsContainerLeft > .icon{
+        padding: 0 1vw;
+        height: 4vh;
+        width: 5.5vw;
+    }
+    .actionsContainerRight > .status > .icon{
+        padding: 0 1vw;
+        height: 4vh;
+        width: 5.5vw;
+    }
+    .actionRightText{
+        font-size: 2.5vw;
+    }
+}
