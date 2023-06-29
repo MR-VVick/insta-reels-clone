@@ -28,6 +28,7 @@ function VideoCard({channel, avatarSrc, song, url, likes, shares}) {
                 alt='video player' 
                 loop
                 autoPlay
+                muted
             />
             <VideoCardFooter 
                 channel={channel}
